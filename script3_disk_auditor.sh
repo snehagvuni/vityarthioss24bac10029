@@ -7,7 +7,6 @@ DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
 
 # Report heading
 echo "Directory Audit Report"
-echo "----------------------"
 
 # Loop through directories
 for DIR in "${DIRS[@]}"; do
