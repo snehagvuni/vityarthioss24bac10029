@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 3: Disk and Permission Auditor
-# Author: Sneha Gayatri Vogeti
+# By: Sneha Gayatri Vogeti
 
 # Important system directories
 DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
