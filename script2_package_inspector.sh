@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 2: FOSS Package Inspector
-# Author: Sneha Gayatri Vogeti
+# By: Sneha Gayatri Vogeti
 
 # Package selection
 PACKAGE="python3"
