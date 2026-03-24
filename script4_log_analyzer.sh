@@ -1,27 +1,27 @@
 #!/bin/bash
 # Script 4: Log File Analyzer
-# Author: Sneha Gayatri V
+# By: Sneha Gayatri Vogeti
 
-# --- Input values ---
+# Input values
 LOGFILE=$1
 KEYWORD=${2:-"error"}
 COUNT=0
 
-# --- Check if file exists ---
+# Check if file exists
 if [ ! -f "$LOGFILE" ]; then
     echo "Error: File $LOGFILE not found."
     exit 1
 fi
 
-# --- Read file line by line ---
+# Read file line by line
 while IFS= read -r LINE; do
     if echo "$LINE" | grep -iq "$KEYWORD"; then
         COUNT=$((COUNT + 1))
     fi
 done < "$LOGFILE"
 
-# --- Summary output ---
+# Summary output
 echo "Keyword '$KEYWORD' found $COUNT times in $LOGFILE"
 
-# --- Last matching lines ---
+# Last matching lines
 grep -i "$KEYWORD" "$LOGFILE" | tail -5
