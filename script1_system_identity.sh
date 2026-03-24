@@ -16,7 +16,7 @@ DATE=$(date)
 # Display
 echo "Open Source Audit — $STUDENT_NAME"
 echo "Kernel  : $KERNEL"
-echo "User    : $STUDENT_NAME"
+echo "User    : $USER_NAME"
 echo "Uptime  : $UPTIME"
 echo "Distro  : $DISTRO"
 echo "Date    : $DATE"
