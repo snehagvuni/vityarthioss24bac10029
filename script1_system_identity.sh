@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 1: System Identity Report
-# Author: Sneha Gayatri Vogeti | Course: Open Source Software
+# By: Sneha Gayatri Vogeti
 
 # Variables
 STUDENT_NAME="Sneha Gayatri Vogeti"
