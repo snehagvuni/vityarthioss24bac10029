@@ -1,6 +1,6 @@
 #!/bin/bash
 # Script 5: Open Source Manifesto Generator
-# Author: Sneha Gayatri Vogeti
+# By: Sneha Gayatri Vogeti
 
 # User questions
 echo "Answer three questions to generate your manifesto."
