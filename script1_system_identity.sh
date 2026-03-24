@@ -14,9 +14,9 @@ DISTRO=$(cat /etc/os-release | grep PRETTY_NAME | cut -d= -f2)
 DATE=$(date)
 
 # Display
-echo "Open Source Audit — $STUDENT_NAME"
+echo "Open Source Audit - $STUDENT_NAME"
 echo "Kernel  : $KERNEL"
-echo "User    : $USER_NAME"
+echo "User    : $STUDENT_NAME"
 echo "Uptime  : $UPTIME"
 echo "Distro  : $DISTRO"
 echo "Date    : $DATE"
